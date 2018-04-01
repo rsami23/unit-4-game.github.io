@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel ="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Life+Savers|Yeseva+One" rel="stylesheet">
+    
+</head>
+<body>
+<!-- Header div-->
+<div class="header">
+    <h1>Crystal Collector!</h1>
+</div>
+    <div class="container">
+        
+        <!-- Content div-->
+                <div class="content">
+                    <h2>Rules:</h2>
+                    <hr>
+                    <p>You will be given a random number at the start of the game.</p>
+                    <p>There are 4 Crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                    <p>You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.</p>
+                    <p>The value of each crystal is hidden from you until you click on it.</p>
+                    <p>Each time when the game starts, the game will change the values of each crystal.</p>
+                </div>
+        <!-- Game Var Div-->
+            <div class="game-var">     
+        <!-- Number Div-->
+                <div class="numbers">
+                    <div class="computerguess">
+                        <h2>Number to Match</h2>
+                        <hr>
+                        <p><span id="computerguess"></span></p>
+                    </div>
+                    <div class="userscore">
+                        <h2>Your Number</h2>
+                        <hr>
+                        <p><span id="userscore"></span></p>
+                    </div>
+                </div>
+        <!-- Win Loses Div-->
+                <div class="scores">
+                    <h2>See How Your Doing!</h2>
+                    <hr>
+                    <p>Wins: <span id="wins"></span></p>
+                    <br>
+                    <p>Loses: <span id="loses"></span></p>
+                </div>
+        <!--Crystal Div-->
+                <div class="crystals">
+                    <h2>Pick a crystal:</h2>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img class="crystal-img" id="crystal-1" src="images/crystal-1.png">
+                        </div>
+                        <div class="col-sm-3">
+                            <img class="crystal-img" id="crystal-2" src="images/crystal-2.png">
+                        </div>
+                        <div class="col-sm-3">
+                            <img class="crystal-img" id="crystal-3" src="images/crystal-3.png">  
+                        </div>
+                        <div class="col-sm-3">
+                            <img class="crystal-img" id="crystal-4" src="images/crystal-4.png"> 
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+<!-- Javascript file-->
+<script src="javascript/game.js"></script>
+    
+</body>
+</html>

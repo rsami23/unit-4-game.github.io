@@ -1,0 +1,97 @@
+
+body {
+    background-color: #2F4F4F;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    border-radius: 20px;
+    border: solid 1px white;
+    margin: auto;
+    font-family: 'Yeseva One', cursive;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Yeseva One', cursive;
+
+}
+
+.content{
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    border-radius: 20px;
+    border: solid 1px white;
+    width: 980px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.game-var {
+    margin: 0 auto;
+    padding: 10px;
+    width: 980px;
+}
+
+.numbers {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    border: solid 1px white;
+    margin-right: 5px;
+    padding: 10px;
+    float: left;
+    width: 47%;
+    height: 300px;
+}
+
+.scores {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    border: solid 1px white;
+    padding: 10px;
+    float: left;
+    width: 47%;
+    height: 300px;
+}
+
+.crystals {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    border: solid 1px white;
+    padding: 10px;
+    float: left;
+    width: 980px;
+    margin: 10px auto;
+}
+
+.crystals img {
+    float: left;
+    border: 1px solid;
+    margin-right: 20px;
+}
+
+.computerguess p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.userscore p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.scores p {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
